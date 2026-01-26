@@ -1,5 +1,5 @@
 context:
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: jj-starship
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dmmulroy/jj-starship/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 127b4e88027ec1315e93f1e5a7613df861a5ff44cb46897dc67e97a76f7f21d2
+  sha256: df18a8c260393671e76af71bb425556c7848769a1f30cb0cf05fde24e73ca021
 
 build:
   number: 0

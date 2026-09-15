@@ -1,5 +1,5 @@
 context:
-  version: "0.7.1"
+  version: "0.7.4"
 
 package:
   name: jj-starship
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/dmmulroy/jj-starship/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 263fc18bac72541f4aa687b44ba8227731be2414f64a039fd752dd52e2ece651
+  sha256: 27326cfb077bfb2f4c9b5fa1cebdf6ce7efb61d308fb12633d11e21e820076f5
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
